@@ -11,3 +11,14 @@ Hot Reloading Python in Development
 - [ ] share in neovim subreddit
 
 *NB:* Never wrote a plugin, nor a large lua package
+
+# Run tests
+
+```sh
+n --headless -u tests/minimal_init.lua -c "PlenaryBustedDirectory tests/ {minimal_init = 'minimal_init.lua'}"
+
+#or neovim: PlenaryBustedDirectory tests
+
+```
+```
+```
